@@ -1,5 +1,5 @@
 function fetchSimpsonJSON() {
-    const url = `https://simpsons--api.herokuapp.com/quotes`;
+    const url = `https://simpsons-quotes-api.herokuapp.com/quotes`;
     axios.get(url)
       .then(function(response) {
         return response.data; 
